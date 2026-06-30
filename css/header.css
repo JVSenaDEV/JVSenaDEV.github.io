@@ -1,0 +1,50 @@
+.logo {
+    width: 10%
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--primary-white);
+    height: var(--header-height);
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+}
+
+.active {
+    background-color: var(--primary-orange);
+    padding: 0rem 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-black);
+    border-radius: 5px;
+}
+
+.changePage {
+    font-weight:100;
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+    color: var(--primary-black);
+}
+.changePage:hover {
+    background-color: var(--primary-orange);
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+    color: var(--primary-black);
+    transition: 0.5s;
+    border-radius: 5px;
+}

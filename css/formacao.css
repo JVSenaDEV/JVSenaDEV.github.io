@@ -1,0 +1,36 @@
+.texto {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--primary-black);
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    height: var(--main-height);
+}
+
+.subtitulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--primary-black);
+}
+p.descricao {
+    list-style-type: square;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--primary-black);
+    text-align: center;
+}
+
+.subdivisao {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+}

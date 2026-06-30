@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/base.css">
+    <title>Sena.DEV</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagens/logo.svg" alt="Sena.DEV">
+        <nav>
+            <ul class="menu">
+                <li><a class="changePage" id="inicio" href="main.html">Início</a></li>
+                <li><a class="changePage" id="sobre" href="sobre.html">Sobre mim</a></li>
+                <li><a class="changePage" id="formacao" href="formacao.html">Formação</a></li>
+                <li><a class="changePage" id="portifolio" href="portifolio.html">Portifólio</a></li>
+                <li><a class="active" id="contato" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cta">
+        <span class="titulo">Precisa de mim?</span>
+        <div class="contatos">
+            <section class="subdivisao-contatos">
+                <span class="contato">Aqui estão os meus contatos:</span>
+                <div class="links-container">
+                    <a class="links" href="https://www.linkedin.com/in/jvsenadev/" target="_blank"><img src="/imagens/linkedinIcon.png" alt="linkedin">JVSenaDEV</a>
+                    <a class="links" href="https://github.com/JVSenaDEV" target="_blank"><img src="/imagens/githubIcon.png" alt="github">JVSenaDEV</a>
+                </div>
+            </section>
+            <section class="subdivisao-contatos">
+                <span class="contato">Ou me mande um email:</span>
+                <form class="contato-form" id="contato-form">
+                     <div class="label-form">
+                        <input type="email" id="email" name="email" placeholder="Seu melhor email" required/>
+                        <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="label-form">
+                        <input type="text" id="titulo" name="titulo" placeholder="O que deseja?" required/>
+                        <label class="label" for="titulo">Título do email</label>
+                    </div>
+                    <div class="mensagem-form">
+                        <textarea id="desejo" name="desejo" rows="7" cols="40" 
+                            placeholder="Conte-me mais sobre o que precisa..." required></textarea>
+                        <div class="enviar">
+                            <label class="label" for="desejo">Descrição</label>
+                            <button type="submit" class="enviar-button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <p id="form-status" class="form-status"></p>
+            </section>
+        </div>
+    </main>
+    <footer><div>&copy;2026 senadev.com.br</div></footer>
+    <script type="text/javascript" src="/js/base.js"></script>
+</body>
+</html>

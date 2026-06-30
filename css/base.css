@@ -1,0 +1,50 @@
+@import "main.css";
+@import "footer.css";
+@import "header.css";
+@import "sobre.css";
+@import "projetos.css";
+@import "formacao.css";
+@import "contato.css";
+
+:root{
+    --primary-white: #f2f2f2;
+    --primary-black: #0d0d0d;
+    --black-opacity: rgba(13, 13, 13, 0.7);
+    --primary-orange: #E3A57F;
+    --main-height: 80vh;
+    --header-height: 10vh;
+    --footer-height: 10vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM sans', sans-serif;
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.highlight {
+    background-color: var(--primary-orange);
+    font-weight: 100;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    height: var(--main-height);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
